@@ -22,7 +22,7 @@ function shouldNotConvert(numArr, units) {
 describe('Converter', () => {
   describe('#conversions()', () => {
     context('lbs', () => {
-      it('should convert', () => {
+      it.only('should convert', () => {
         console.log('Hello!');
         testConvert(
           [
