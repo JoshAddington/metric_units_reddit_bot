@@ -25,7 +25,7 @@ describe('Converter', () => {
       it('should convert', () => {
         testConvert(
           [
-            "1001 lb" 
+            "100 lb" 
           ],
           {
             "1,001 lb" : "450 kg"
