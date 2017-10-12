@@ -23,6 +23,7 @@ describe('Converter', () => {
   describe('#conversions()', () => {
     context('lbs', () => {
       it('should convert', () => {
+        console.log('Hello!');
         testConvert(
           [
             "100 lb" 
